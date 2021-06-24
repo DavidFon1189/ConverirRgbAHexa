@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/root_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_title" />
+
+        <EditText
+            android:id="@+id/edt_codigo_r"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/darker_gray"
+            android:hint="Ingresa el valor r"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_codigo_g"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/darker_gray"
+            android:hint="Ingresa el valor g"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_codigo_b"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/darker_gray"
+            android:hint="Ingresa el valor b"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_hexadecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hexadecimal"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/btn_convertir"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="convertir" />
+
+    </LinearLayout>
+
+</LinearLayout>
